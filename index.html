@@ -3,45 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ziyoda Market</title>
+  <meta name="description" content="Ziyoda Market, Xonqa. Oziq-ovqat va issiq qahva, har kuni 07:00 dan 22:00 gacha.">
+  <title>Ziyoda Market - Xonqa</title>
   <style>
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: Arial, sans-serif; background: #f4faf5; color: #1f2d24; }
-    header { background: #1b7f3b; color: white; text-align: center; padding: 48px 20px; }
-    header h1 { margin: 0 0 8px; font-size: 34px; }
-    header p { margin: 0 0 20px; font-size: 18px; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4faf5; color: #1f2d24; line-height: 1.5; }
+    header { background: linear-gradient(135deg, #1b7f3b, #2fa355); color: white; text-align: center; padding: 56px 20px; }
+    header h1 { margin: 0 0 10px; font-size: 36px; }
+    header p { margin: 0 0 22px; font-size: 18px; }
     .tugma { display: inline-block; background: white; color: #1b7f3b; padding: 14px 26px; border-radius: 10px; text-decoration: none; font-weight: bold; }
-    section { max-width: 800px; margin: 0 auto; padding: 32px 20px; }
-    h2 { color: #1b7f3b; }
-    .mahsulot { display: flex; justify-content: space-between; background: white; padding: 14px 18px; margin-bottom: 10px; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
-    .narx { font-weight: bold; color: #1b7f3b; }
-    footer { text-align: center; padding: 24px; color: #666; font-size: 14px; }
+    section { max-width: 860px; margin: 0 auto; padding: 28px 20px; }
+    h2 { color: #1b7f3b; margin-top: 0; }
+    .setka { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+    .karta { background: white; border-radius: 12px; padding: 18px; box-shadow: 0 1px 5px rgba(0,0,0,0.08); }
+    .karta .nom { font-weight: bold; margin-bottom: 6px; }
+    .karta .narx { color: #1b7f3b; font-weight: bold; }
+    .qahva { background: #fff6e8; border-radius: 16px; max-width: 860px; margin: 24px auto; padding: 28px 20px; }
+    .qahva h2 { color: #8a5a1c; }
+    .qahva .karta { background: white; }
+    .qahva .narx { color: #8a5a1c; }
+    .eslatma { color: #6b5a3c; font-size: 14px; margin-top: 14px; }
   </style>
 </head>
 <body>
   <header>
     <h1>🛒 Ziyoda Market</h1>
-    <p>Mijoz roziligi va halollik foydadan ustun ☕</p>
+    <p>Mijoz roziligi va halollik foydadan ustun</p>
     <a class="tugma" href="https://t.me/ziyoda_market_demo_bot">🤖 Telegram'da buyurtma bering</a>
   </header>
+  <main>
+  <div class="qahva">
+    <h2>☕ Qahva burchagi</h2>
+    <p>Erta ertalab ishga ketayotganlar uchun: issiq qahva va choy, har kuni 07:00 dan.</p>
+    <div class="setka">
+      <div class="karta"><div class="nom">☕ Amerikano</div><div class="narx">15 000 so'm</div></div>
+      <div class="karta"><div class="nom">☕ Kapuchino</div><div class="narx">20 000 so'm</div></div>
+      <div class="karta"><div class="nom">☕ Latte</div><div class="narx">22 000 so'm</div></div>
+    </div>
+    <p class="eslatma">Kichik hajm shu narxda. O'rta +3 000 so'm, Katta +6 000 so'm. Narxlar taxminiy.</p>
+  </div>
   <section>
-    <h2>🛍 Mahsulotlar</h2>
-    <div class="mahsulot"><span>Non</span><span class="narx">4 000 so'm</span></div>
-    <div class="mahsulot"><span>Sut 1 l</span><span class="narx">12 000 so'm</span></div>
-    <div class="mahsulot"><span>Tuxum (10 dona)</span><span class="narx">20 000 so'm</span></div>
-    <div class="mahsulot"><span>Guruch 1 kg</span><span class="narx">18 000 so'm</span></div>
-    <div class="mahsulot"><span>Shakar 1 kg</span><span class="narx">14 000 so'm</span></div>
-    <div class="mahsulot"><span>Yog' 1 l</span><span class="narx">25 000 so'm</span></div>
-    <div class="mahsulot"><span>Choy (stakan)</span><span class="narx">5 000 so'm</span></div>
-    <div class="mahsulot"><span>Qahva Amerikano</span><span class="narx">15 000 so'm</span></div>
-    <div class="mahsulot"><span>Kapuchino</span><span class="narx">20 000 so'm</span></div>
+    <h2>🛍 Oziq-ovqat mahsulotlari</h2>
+    <div class="setka">
+      <div class="karta"><div class="nom">Non</div><div class="narx">4 000 so'm</div></div>
+      <div class="karta"><div class="nom">Sut 1 l</div><div class="narx">12 000 so'm</div></div>
+      <div class="karta"><div class="nom">Tuxum (10 dona)</div><div class="narx">20 000 so'm</div></div>
+      <div class="karta"><div class="nom">Guruch 1 kg</div><div class="narx">18 000 so'm</div></div>
+      <div class="karta"><div class="nom">Shakar 1 kg</div><div class="narx">14 000 so'm</div></div>
+      <div class="karta"><div class="nom">Yog' 1 l</div><div class="narx">25 000 so'm</div></div>
+      <div class="karta"><div class="nom">Choy (stakan)</div><div class="narx">5 000 so'm</div></div>
+    </div>
+    <p class="eslatma">Narxlar taxminiy, do'kon ochilganda yangilanadi.</p>
   </section>
+  <style>
+    .qator { display: flex; justify-content: space-between; gap: 12px; background: white; padding: 14px 18px; margin-bottom: 10px; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+    .qr { text-align: center; }
+    .qr img { width: 200px; max-width: 70%; border-radius: 12px; background: white; padding: 8px; box-shadow: 0 1px 5px rgba(0,0,0,0.1); }
+    footer { text-align: center; padding: 24px 20px 90px; color: #666; font-size: 14px; }
+  </style>
   <section>
     <h2>📍 Manzil va aloqa</h2>
-    <div class="mahsulot"><span>Manzil</span><span>Xonqa, Oxunboboyev ko'chasi (Yulduz kafe ko'chasida)</span></div>
-    <div class="mahsulot"><span>Ish vaqti</span><span>Har kuni 07:00 - 22:00</span></div>
-    <div class="mahsulot"><span>Telefon</span><span>+998 50 300 27 23</span></div>
+    <div class="qator"><span>Manzil</span><span>Xonqa, Oxunboboyev ko'chasi (Yulduz kafe ko'chasida)</span></div>
+    <div class="qator"><span>Ish vaqti</span><span>Har kuni 07:00 - 22:00</span></div>
+    <div class="qator"><span>Telefon</span><span><a href="tel:+998503002723">+998 50 300 27 23</a></span></div>
   </section>
-  <footer>© 2026 Ziyoda Market. Namunaviy sahifa.</footer>
+  <section class="qr">
+    <h2>🤖 Telefoningiz kamerasi bilan skanerlang</h2>
+    <p>Telegram'da buyurtma berish uchun botimizga o'ting.</p>
+    <img src="qr.png" alt="Ziyoda Market botining QR-kodi">
+  </section>
+  </main>
+  <footer>© 2026 Ziyoda Market, Xonqa. Namunaviy sahifa.</footer>
+  <a class="tugma" style="position: fixed; right: 16px; bottom: 16px; background: #1b7f3b; color: white; box-shadow: 0 2px 10px rgba(0,0,0,0.25);" href="https://t.me/ziyoda_market_demo_bot">🤖 Buyurtma</a>
 </body>
 </html>
